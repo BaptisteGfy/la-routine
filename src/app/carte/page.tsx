@@ -1,5 +1,3 @@
-import React from "react";
-
 const Carte = () => {
   return (
     <main className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-100 p-4">
@@ -227,7 +225,7 @@ const Carte = () => {
                     <div>
                       <h3 className="font-bold text-lg">Bruschetta</h3>
                       <p className="text-sm text-gray-600">
-                        Pain grillé, tomates, basilic, huile d'olive
+                        Pain grillé, tomates, basilic, huile d&apos;olive
                       </p>
                     </div>
                     <span className="badge badge-secondary">8€</span>

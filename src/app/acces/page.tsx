@@ -1,5 +1,3 @@
-import React from "react";
-
 const Acces = () => {
   return (
     <main className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-100 p-4">
@@ -52,7 +50,7 @@ const Acces = () => {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-gray-800 mb-2">
-                    Horaires d'ouverture
+                    Horaires d&apos;ouverture
                   </h3>
                   <p className="text-gray-600">
                     <strong>Mardi - Samedi :</strong> 18h00 - 02h00
@@ -71,12 +69,9 @@ const Acces = () => {
                     Accès en transport
                   </h3>
                   <p className="text-gray-600">
-                    <strong>Métro :</strong> Ligne 1 - Station "Châtelet"
+                    <strong>Tram :</strong> Ligne 1 - Station Bouffay
                     <br />
-                    <strong>Bus :</strong> Lignes 21, 38, 47, 58
-                    <br />
-                    <strong>RER :</strong> Lignes A, B, D - Station
-                    "Châtelet-Les Halles"
+                    <strong>Bus :</strong> Lignes 4
                   </p>
                 </div>
                 <div className="flex-shrink-0">
@@ -101,10 +96,10 @@ const Acces = () => {
                     <strong>Parking souterrain :</strong> Forum des Halles (5
                     min à pied)
                     <br />
-                    <strong>Parking de rue :</strong> Payant, horodateur jusqu'à
-                    20h
+                    <strong>Parking de rue :</strong> Payant, horodateur
+                    jusqu&apos;à 20h
                     <br />
-                    <strong>Vélos :</strong> Station Vélib' à 100m
+                    <strong>Vélos :</strong> Station Vélib à 100m
                   </p>
                 </div>
               </div>
@@ -136,7 +131,7 @@ const Acces = () => {
 
         {/* Footer */}
         <div className="text-center text-sm text-gray-600 mt-8">
-          <p>Pour toute question, n'hésitez pas à nous contacter</p>
+          <p>Pour toute question, n&apos;hésitez pas à nous contacter</p>
           <p className="mt-2">La Routine - Votre bar de quartier depuis 2025</p>
         </div>
       </div>

@@ -1,5 +1,3 @@
-import React from "react";
-
 const Home = () => {
   return (
     <main className="min-h-screen">
@@ -136,8 +134,9 @@ const Home = () => {
                     Depuis 2025, <strong>La Routine</strong> est le bar de
                     quartier par excellence, un lieu chaleureux où se mêlent
                     convivialité, bonne humeur et authenticité. Notre
-                    établissement est bien plus qu'un simple bar, c'est un
-                    véritable point de rencontre pour les habitants du quartier.
+                    établissement est bien plus qu&apos;un simple bar,
+                    c&apos;est un véritable point de rencontre pour les
+                    habitants du quartier.
                   </p>
 
                   <p className="text-lg text-gray-700 leading-relaxed">

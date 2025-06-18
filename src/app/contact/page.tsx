@@ -1,5 +1,3 @@
-import React from "react";
-
 const Contact = () => {
   return (
     <main className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-100 p-4">
@@ -86,7 +84,7 @@ const Contact = () => {
                       Sélectionnez un sujet
                     </option>
                     <option>Réservation</option>
-                    <option>Demande d'information</option>
+                    <option>Demande d&apos;information</option>
                     <option>Événement privé</option>
                     <option>Autre</option>
                   </select>
@@ -203,7 +201,7 @@ const Contact = () => {
                 {/* Horaires */}
                 <div className="p-4 bg-gradient-to-r from-amber-50 to-yellow-50 rounded-lg border border-amber-200">
                   <h3 className="font-bold text-lg text-gray-800 mb-2">
-                    Horaires d'ouverture
+                    Horaires d&apos;ouverture
                   </h3>
                   <div className="space-y-1 text-sm text-gray-600">
                     <div className="flex justify-between">
