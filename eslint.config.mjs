@@ -12,12 +12,27 @@ const compat = new FlatCompat({
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
+    files: ["**/*.{js,jsx,ts,tsx}"],
     rules: {
-      "react/no-unescaped-entities": 0,
+      "react/no-unescaped-entities": "off",
       // Ajoutez vos règles personnalisées ici
       // Exemple :
       // "no-console": "warn",
       // "prefer-const": "error",
+    },
+  },
+  // Configuration spécifique pour Next.js
+  {
+    files: ["**/*.{js,jsx,ts,tsx}"],
+    languageOptions: {
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+    },
+    rules: {
+      "react/no-unescaped-entities": "off",
     },
   },
 ];
