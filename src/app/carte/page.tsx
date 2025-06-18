@@ -22,7 +22,9 @@ const Carte = () => {
                 <div className="card-body p-4">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="font-bold text-lg">Mojito La Routine</h3>
+                      <h3 className="font-bold text-lg text-gray-600">
+                        Mojito La Routine
+                      </h3>
                       <p className="text-sm text-gray-600">
                         Rhum, menthe fraîche, citron vert, sucre de canne
                       </p>
@@ -36,7 +38,9 @@ const Carte = () => {
                 <div className="card-body p-4">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="font-bold text-lg">Gin Tonic Spécial</h3>
+                      <h3 className="font-bold text-lg text-gray-600">
+                        Gin Tonic Spécial
+                      </h3>
                       <p className="text-sm text-gray-600">
                         Gin premium, tonic artisanal, citron confit
                       </p>
@@ -50,7 +54,9 @@ const Carte = () => {
                 <div className="card-body p-4">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="font-bold text-lg">Margarita Classique</h3>
+                      <h3 className="font-bold text-lg text-gray-600">
+                        Margarita Classique
+                      </h3>
                       <p className="text-sm text-gray-600">
                         Tequila, triple sec, jus de citron vert
                       </p>
@@ -64,7 +70,9 @@ const Carte = () => {
                 <div className="card-body p-4">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="font-bold text-lg">Old Fashioned</h3>
+                      <h3 className="font-bold text-lg text-gray-600">
+                        Old Fashioned
+                      </h3>
                       <p className="text-sm text-gray-600">
                         Whisky, bitters, sucre, orange
                       </p>
@@ -89,7 +97,9 @@ const Carte = () => {
                 <div className="card-body p-4">
                   <div className="flex justify-between items-center">
                     <div>
-                      <h3 className="font-semibold">Kronenbourg 1664</h3>
+                      <h3 className="font-semibold text-gray-600">
+                        Kronenbourg 1664
+                      </h3>
                       <p className="text-sm text-gray-600">25cl / 50cl</p>
                     </div>
                     <div className="text-right">
@@ -104,7 +114,7 @@ const Carte = () => {
                 <div className="card-body p-4">
                   <div className="flex justify-between items-center">
                     <div>
-                      <h3 className="font-semibold">Heineken</h3>
+                      <h3 className="font-semibold text-gray-600">Heineken</h3>
                       <p className="text-sm text-gray-600">25cl / 50cl</p>
                     </div>
                     <div className="text-right">
@@ -119,7 +129,9 @@ const Carte = () => {
                 <div className="card-body p-4">
                   <div className="flex justify-between items-center">
                     <div>
-                      <h3 className="font-semibold">Cidre Breton</h3>
+                      <h3 className="font-semibold text-gray-600">
+                        Cidre Breton
+                      </h3>
                       <p className="text-sm text-gray-600">25cl</p>
                     </div>
                     <div className="text-right">
@@ -146,11 +158,11 @@ const Carte = () => {
                 </h3>
                 <div className="space-y-2">
                   <div className="flex justify-between items-center p-2 bg-red-50 rounded">
-                    <span>Bordeaux AOC</span>
+                    <span className="text-gray-600">Bordeaux AOC</span>
                     <span className="badge badge-outline">8€/verre</span>
                   </div>
                   <div className="flex justify-between items-center p-2 bg-red-50 rounded">
-                    <span>Bourgogne Pinot Noir</span>
+                    <span className="text-gray-600">Bourgogne Pinot Noir</span>
                     <span className="badge badge-outline">10€/verre</span>
                   </div>
                 </div>
@@ -162,11 +174,11 @@ const Carte = () => {
                 </h3>
                 <div className="space-y-2">
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
-                    <span>Sancerre</span>
+                    <span className="text-gray-600">Sancerre</span>
                     <span className="badge badge-outline">9€/verre</span>
                   </div>
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
-                    <span>Chablis</span>
+                    <span className="text-gray-600">Chablis</span>
                     <span className="badge badge-outline">11€/verre</span>
                   </div>
                 </div>
@@ -183,7 +195,9 @@ const Carte = () => {
                 <div className="card-body p-4">
                   <div className="flex justify-between items-center">
                     <div>
-                      <h4 className="font-semibold">Moët & Chandon</h4>
+                      <h4 className="font-semibold text-gray-600">
+                        Moët & Chandon
+                      </h4>
                       <p className="text-sm text-gray-600">Coupe / Bouteille</p>
                     </div>
                     <div className="text-right">
@@ -209,7 +223,9 @@ const Carte = () => {
                 <div className="card-body p-4">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="font-bold text-lg">Planche Mixte</h3>
+                      <h3 className="font-bold text-lg text-gray-600">
+                        Planche Mixte
+                      </h3>
                       <p className="text-sm text-gray-600">
                         Charcuterie, fromages, olives, noix
                       </p>
@@ -223,7 +239,9 @@ const Carte = () => {
                 <div className="card-body p-4">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="font-bold text-lg">Bruschetta</h3>
+                      <h3 className="font-bold text-lg text-gray-600">
+                        Bruschetta
+                      </h3>
                       <p className="text-sm text-gray-600">
                         Pain grillé, tomates, basilic, huile d&apos;olive
                       </p>
@@ -237,7 +255,9 @@ const Carte = () => {
                 <div className="card-body p-4">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="font-bold text-lg">Calamars Frits</h3>
+                      <h3 className="font-bold text-lg text-gray-600">
+                        Calamars Frits
+                      </h3>
                       <p className="text-sm text-gray-600">
                         Calamars panés, sauce tartare
                       </p>
@@ -251,7 +271,9 @@ const Carte = () => {
                 <div className="card-body p-4">
                   <div className="flex justify-between items-start">
                     <div>
-                      <h3 className="font-bold text-lg">Burger Gourmet</h3>
+                      <h3 className="font-bold text-lg text-gray-600">
+                        Burger Gourmet
+                      </h3>
                       <p className="text-sm text-gray-600">
                         Steak, cheddar, bacon, frites maison
                       </p>

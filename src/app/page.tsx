@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Home = () => {
   return (
     <main className="min-h-screen">
@@ -25,10 +27,10 @@ const Home = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="btn btn-primary bg-amber-600 hover:bg-amber-700 border-amber-600 hover:border-amber-700 text-white px-8 py-3 text-lg">
-              Découvrir notre carte
+              <Link href="/carte">Découvrir notre carte</Link>
             </button>
             <button className="btn btn-outline border-white text-white hover:bg-white hover:text-gray-800 px-8 py-3 text-lg">
-              Nous contacter
+              <Link href="/contact">Nous contacter</Link>
             </button>
           </div>
         </div>
